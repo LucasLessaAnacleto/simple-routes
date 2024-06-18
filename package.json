@@ -1,10 +1,11 @@
 {
-  "name": "lla-api",
+  "name": "simpleRoutes",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "tsx watch test.ts"
+    "dev": "tsx watch test.ts",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -16,6 +17,14 @@
     "http", 
     "server"
   ],
+  "files": [
+    "dist/",
+    "package.json"
+  ],
+  "exports": {
+    ".": "./dist/index.js",
+    "./package.json": "./package.json"
+  },
   "author": "LucasLessaAnacleto",
   "license": "ISC",
   "homepage": "https://github.com/LucasLessaAnacleto/simple-routes#readme",
