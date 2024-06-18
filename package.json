@@ -1,0 +1,27 @@
+{
+  "name": "lla-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasLessaAnacleto/simple-routes.git"
+  },
+  "keywords": [
+    "api",
+    "back-end", 
+    "http", 
+    "server"
+  ],
+  "author": "LucasLessaAnacleto",
+  "license": "ISC",
+  "homepage": "https://github.com/LucasLessaAnacleto/simple-routes#readme",
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "tsx": "^4.15.4",
+    "typescript": "^5.4.5"
+  }
+}
